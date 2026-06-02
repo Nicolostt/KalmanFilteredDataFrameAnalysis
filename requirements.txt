@@ -1,0 +1,1 @@
+To run the project correctly you have to take a look on the "Tennis Project" by Sergey Kosolapov to detect the players, ball and tennis court correctly, and then to run this project using the videos with all the things detected. I used Pycharm to develop and run the project. 
