@@ -1,1 +1,10 @@
 To run the project correctly you have to take a look on the "Tennis Project" by Sergey Kosolapov to detect the players, ball and tennis court correctly, and then to run this project using the videos with all the things detected. I used Pycharm to develop and run the project. 
+
+
+### Tecnologies
+
+Python, OpenCV, PyTorch, Numpy.
+The PC configuration is as follows:
+- NVIDIA GeForce RTX 4060 graphics card (8 GB VRAM);
+- 64 GB RAM;
+- Intel Core i7-9700F processor.
