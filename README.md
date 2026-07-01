@@ -1,6 +1,11 @@
 # Computer Vision for Human Activity Recognition for Professional Sports
 ## Computer Vision | CNR Pisa | 2024
 
+
+![Demo](results/Detected.gif)
+![Demo](results/Speed.gif)
+
+
 ### Context
 The project focused on the development of computer vision algorithms for analyzing the movement of a tennis player during matches. I starded from an existing project "Tennis Project" by Sergey Kosolapov where he used Object Detection to recognize/detect the players, the ball and the tennis court during a tennis match with a Faster R-CNN. The extracted coordinates are then projected onto a reproduction of the top of the playing rectangle, using a homographic matrix, a fundamental element for the correct calculation of spatial metrics.
 
