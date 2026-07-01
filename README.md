@@ -8,8 +8,10 @@ The project focused on the development of computer vision algorithms for analyzi
 
 ### My contribution
 I contributed to the design and implementation of solutions for the automatic calculation of metrics such as player displacement and speed, using video sequences as input. Extracting the coordinates frame by frame from the minimap, I started to develop some functions that cleaned up duplicate, noisy, and missing data were found to have several anomalies in the original design that prevented the calculation of correct displacement and velocity, for example:
+
 - for the same frame, both the player and external bodies (often the ball boy) were recognized;
 - no player was recognized, so there were no coordinates for that frame (NaN).
+
 This was resolved by first approximating the player's motion using the previous and subsequent coordinates, and only then implementing the Kalman filter to clean up the noisy data. 
 After that, the functions that calculate the displacement, the velocity and the printing of the velocity values ​​on the screen were implemented.
 
